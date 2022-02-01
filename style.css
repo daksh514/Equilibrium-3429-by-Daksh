@@ -1,0 +1,115 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.main_div {
+    height: 450px;
+    width: 250px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: -1px 1px 0px 15px hsl(216, 75%, 11%, 0.7);
+}
+
+.attribution {
+    position: absolute;
+    bottom: 1px;
+    padding: 20px;
+}
+
+.main_img {
+    width: 88%;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.main-title {
+    color: white;
+    font-size: 18px;
+    margin-left: 15px;
+    letter-spacing: 2px;
+}
+
+.main_p {
+    color: grey;
+    margin-left: 15px;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.eth_img {
+    /* display: inline-block; */
+    margin-left: 15px;
+    margin-right: 2px;
+    width: 7px;
+}
+
+.eth_count {
+    display: inline-block;
+    color: cyan;
+    font-size: 12px;
+}
+
+.clock_img {
+    width: 12px;
+    margin-right: 2px;
+    position: relative;
+    top: 2px;
+}
+
+.clock_title {
+    display: inline-block;
+    color: grey;
+    font-size: 12px;
+}
+
+.clock {
+    display: inline-block;
+    margin-left: 78px;
+}
+
+.hr {
+    border-color: hsl(215, 32%, 27%);
+    color: hsl(215, 32%, 27%, 0.2);
+    width: 90%;
+    position: relative;
+    bottom: 6px;
+}
+
+.profile_img {
+    width: 30px;
+    border: 0.1px solid white;
+    border-radius: 100%;
+    margin-left: 12px;
+}
+
+.div-credits {
+    color: grey;
+    display: inline-block;
+    font-size: 12px;
+    position: relative;
+    bottom: 12px;
+    left: 10px;
+}
+
+span {
+    color: white;
+}
+
+.attribution {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: white ;
+ 
+}
+
+a {
+    color: cyan;
+    text-decoration: none;
+}
